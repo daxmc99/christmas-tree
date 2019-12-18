@@ -146,7 +146,9 @@ int main(int args, const char** argv) {
         lamp(c);
         break;
 
-      case '#':
+      case '|': [[fall_through]]
+      case '{': [[fall_through]]
+      case '}':
         std::cout << 94_c << c;
         break;
 
