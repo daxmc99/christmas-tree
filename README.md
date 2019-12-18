@@ -1,7 +1,7 @@
 # Menorah 
 ASCII menorah with animations for 256 colored terminals (inspired by apolukhin/christmas-tree):
 
-![Sample](https://raw.githubusercontent.com/daxmc99/menorah/docs/menorah.png)
+![Sample](https://raw.githubusercontent.com/daxmc99/christmas-tree/master/docs/menorah.png)
 
 (light are glowing in the terminal!)
 
