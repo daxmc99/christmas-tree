@@ -16,6 +16,8 @@ FROM alpine:latest as prod
 
 RUN apk update && apk add --no-cache \ 
     libstdc++
+RUN apk add --no-cache tini
+ENTRYPOINT ["/sbin/tini","--"]
 
 COPY --from=builder /app/a.out ~/a.out
 COPY --from=builder /app/menorah.txt ~/menorah.txt
